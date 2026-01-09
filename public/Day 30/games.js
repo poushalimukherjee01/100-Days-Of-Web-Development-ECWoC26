@@ -1,8 +1,8 @@
 let boxes = document.querySelectorAll(".box");
-let resetbtn = document.querySelector("#reset");
+let resetbtn = document.querySelector(".reset");
 let newBtn = document.querySelector("#new");
 let msgcontainer = document.querySelector(".msg-container");
-let msg = document.querySelector("#msg");
+let msg = document.querySelector("#winmsg");
 let turnO = true;
 
 const winpatterns = [
